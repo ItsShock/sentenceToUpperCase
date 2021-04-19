@@ -1,33 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="3" failures="2" time="2.498">
-  <testsuite name="Funkcja sentenceToUpperCase" errors="0" failures="2" skipped="0" timestamp="2021-04-18T18:22:14" time="1.377" tests="3">
+<testsuites name="jest tests" tests="3" failures="0" time="2.537">
+  <testsuite name="Funkcja sentenceToUpperCase" errors="0" failures="0" skipped="0" timestamp="2021-04-19T09:00:44" time="1.399" tests="3">
     <testcase classname="Funkcja sentenceToUpperCase powinna zwrócić wartość typu boolean" name="Funkcja sentenceToUpperCase powinna zwrócić wartość typu boolean" time="0.002">
     </testcase>
-    <testcase classname="Funkcja sentenceToUpperCase powinna zwracać powiększony napis gdy tylko jeden wyraz został podany" name="Funkcja sentenceToUpperCase powinna zwracać powiększony napis gdy tylko jeden wyraz został podany" time="0.003">
-      <failure>Error: expect(received).toEqual(expected) // deep equality
-
-Expected: &quot;AGA&quot;
-Received: &quot;Aga&quot;
-    at Object.&lt;anonymous&gt; (C:\Users\Pjoter\AppData\Roaming\Code\User\globalStorage\leancode.future-collars\futurecollars\fe-js-02-02-r\tests\test.js:11:40)
-    at Object.asyncJestTest (C:\Users\Pjoter\AppData\Roaming\Code\User\globalStorage\leancode.future-collars\futurecollars\fe-js-02-02-r\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:100:37)
-    at C:\Users\Pjoter\AppData\Roaming\Code\User\globalStorage\leancode.future-collars\futurecollars\fe-js-02-02-r\node_modules\jest-jasmine2\build\queueRunner.js:45:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (C:\Users\Pjoter\AppData\Roaming\Code\User\globalStorage\leancode.future-collars\futurecollars\fe-js-02-02-r\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
-    at C:\Users\Pjoter\AppData\Roaming\Code\User\globalStorage\leancode.future-collars\futurecollars\fe-js-02-02-r\node_modules\jest-jasmine2\build\queueRunner.js:75:41
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    <testcase classname="Funkcja sentenceToUpperCase powinna zwracać powiększony napis gdy tylko jeden wyraz został podany" name="Funkcja sentenceToUpperCase powinna zwracać powiększony napis gdy tylko jeden wyraz został podany" time="0.001">
     </testcase>
-    <testcase classname="Funkcja sentenceToUpperCase powinna zwracać co drugi wyraz powiększony, przy co najmniej dwóch przekazanych słowach" name="Funkcja sentenceToUpperCase powinna zwracać co drugi wyraz powiększony, przy co najmniej dwóch przekazanych słowach" time="0.001">
-      <failure>Error: expect(received).toEqual(expected) // deep equality
-
-Expected: &quot;ala MA kota&quot;
-Received: &quot;Ala Ma Kota&quot;
-    at Object.&lt;anonymous&gt; (C:\Users\Pjoter\AppData\Roaming\Code\User\globalStorage\leancode.future-collars\futurecollars\fe-js-02-02-r\tests\test.js:18:48)
-    at Object.asyncJestTest (C:\Users\Pjoter\AppData\Roaming\Code\User\globalStorage\leancode.future-collars\futurecollars\fe-js-02-02-r\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:100:37)
-    at C:\Users\Pjoter\AppData\Roaming\Code\User\globalStorage\leancode.future-collars\futurecollars\fe-js-02-02-r\node_modules\jest-jasmine2\build\queueRunner.js:45:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (C:\Users\Pjoter\AppData\Roaming\Code\User\globalStorage\leancode.future-collars\futurecollars\fe-js-02-02-r\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
-    at C:\Users\Pjoter\AppData\Roaming\Code\User\globalStorage\leancode.future-collars\futurecollars\fe-js-02-02-r\node_modules\jest-jasmine2\build\queueRunner.js:75:41
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    <testcase classname="Funkcja sentenceToUpperCase powinna zwracać co drugi wyraz powiększony, przy co najmniej dwóch przekazanych słowach" name="Funkcja sentenceToUpperCase powinna zwracać co drugi wyraz powiększony, przy co najmniej dwóch przekazanych słowach" time="0">
     </testcase>
   </testsuite>
 </testsuites>

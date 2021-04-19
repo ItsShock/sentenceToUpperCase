@@ -1,13 +1,15 @@
-function sentenceToUpperCase(str) 
-{
-  var a = str.split(" ");
-   
-  for(var i=0; i < a.length; i++)
-  {
-    a[i] = a[i].replace(a[i][0],a[i][0].toUpperCase());
-  }
- return a.join(" ");
-};
+function sentenceToUpperCase(str) {
+  const words = str.split(' ');
+  if (words.length === 1) {
+    return words[0].toUpperCase();
+  } 
+  return words.map((word, index) => {
+    if (index % 2 === 0) {
+      return word;
+    }
+    return word.toUpperCase();
+  }).join(' ');
+}
 
 module.exports = sentenceToUpperCase;
 
